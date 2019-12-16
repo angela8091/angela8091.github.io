@@ -1,8 +1,779 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
-    <body>
-        <h1>My CV</h1>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FontAwesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+	<!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+	<title>Angela Cahill CV</title>
+  </head>
+
+  <body>
+
+  	<section>
+		<div class="tabbable">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<!-- navbar-expand-md means the navbar will expand when it is on a tablet but will be collapsed for a mobile -->
+			<div class="container">
+				<h4 class="title">Angela Cahill</h4>
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  				</button>
+  				<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<!-- justify-content-end right aligns the navigation and search box -->
+					<ul class="nav nav-pills">
+						<li class="nav-item active">
+							<a class="nav-link active" href="#profile" data-toggle="tab">Profile <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#skills" data-toggle="tab">Skills</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Education</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#education" data-toggle="tab">Formal Education</a>
+								<a class="dropdown-item" href="#education" data-toggle="tab">Professional Development</a>
+							</div>
+						<li class="nav-item">
+							<a class="nav-link" href="#experience" data-toggle="tab">Experience</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#testimonials" data-toggle="tab">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact" data-toggle="tab">Contact</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-lg-0 ml-1">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+  				</div>
+			</div>
+    	</nav>
+		</div>
+	</section>
+
+	<div class="tab-content">
+	<!-- Profile section -->
+	<section class="tab-pane container active" id="profile">
+		<div class="row">
+			<div class="col-md-4 mt-3 py-5 pl-5">
+				<img class="img-fluid" alt="Angela Cahill" src="images/Angela.png" style="max-width:100%;">
+			</div>
+			<div class="col-md-8 mt-3 py-5 pl-5">
+				<div class="row">
+					<div class="profile content offset-md-1 col-md-10">
+						<h1 class="pb-3">Angela Cahill</h1>
+						<h2 class="pb-3">Program Manager</h2>
+						<p class="pb-3"> Program Manager with a background in Quality Management over a 19-year career in IT, primarily in the areas of Social Enterprise Management and Healthcare Management software. Experienced in the delivery of complex Product Development programs of work, using quality-oriented Agile frameworks, with a track record in building successful high performing, cross-functional teams. Adaptable servant leader with a can-do, solution-oriented approach.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="offset-md-2 col-md-2 my-auto">
+						<a href="https://www.linkedin.com/in/angela-cahill-952b7a65" target="_blank">
+							<i id="linkedin-logo" class="fab fa-linkedin"></i>
+						</a>
+					</div>
+					<div class="offset-md-2 col-md-4 my-auto">
+						<!-- Button to Open the Modal -->
+						<button type="button" class="btn btn-lg btn-outline-secondary" data-toggle="modal" data-target="#contactModal">
+                            Contact Me
+                        </button>
+						<!-- Modal -->
+						<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+
+							<div class="modal-dialog modal-lg" role="document">
+   								 <div class="modal-content">
+      								<div class="modal-header">
+       									<h5 class="modal-title" id="contactModalLabel">Contact Me</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         		 							<span aria-hidden="true">&times;</span>
+        								</button>
+      								</div>
+									<div class="modal-body">
+        								<div class="row">
+											<div class="col-md-5">
+												<div class="card">
+													<h5 class="card-header"><strong>Angela Cahill</strong> <br> <i>Program Manager</i></h5>
+													<div class="card-body">
+														<p class="card-text">
+															<i class="fas fa-map-marker-alt"></i> <strong>Address</strong> <br>
+															42 Highland Woods, <br>
+															Malahide, <br>
+															Dublin.
+														</p>
+														<p class="card-text">
+															<i class="fas fa-phone-square-alt"></i> <strong>Phone</strong> <br>
+															01 4358932
+														</p>
+														<p class="card-text">
+															<i class="fas fa-envelope-square"></i> <strong>Email</strong> <br>
+															<a href="mailto:angela@gmail.com">angela@gmail.com</a> <br>
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="col-md-7">
+												<h3>Send me a message</h3>
+												<form>
+													<div class="form-group">
+														<label for="contactName">Your Name</label>
+														<input type="text" class="form-control" id="contactNameModal" placeholder="Enter your name" required>
+													</div>
+													<div class="form-group">
+														<label for="companyName">Company Name</label>
+														<input type="text" class="form-control" id="companyNameModal" placeholder="Enter your company name">
+													</div>
+													<div class="form-group">
+														<label for="emailAddress">Email</label>
+														<input type="email" class="form-control" id="emailAddressModal" placeholder="Enter a valid email address" required>
+													</div>
+													<div class="form-group">
+														<label for="phoneNumber">Phone Number</label>
+														<input type="tel" class="form-control" id="phoneNumberModal" placeholder="Enter your phone number">
+													</div>
+													<div class="form-group">
+														<label for="message">Message</label>
+														<textarea class="form-control" id="messageModal" placeholder="Enter your message" rows="5"></textarea>
+													</div>
+													<button type="submit" class="btn btn-primary">Submit</button>
+												</form>
+											</div>
+										</div>
+      								</div>
+      								<div class="modal-footer">
+        								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        				    		</div>
+								 </div>
+  							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Skills page -->
+	<section class="tab-pane container" id="skills">
+		<h4 class="pt-3">Skills</h4>
+		<table class="table table-striped">
+		  <tbody>
+			<tr>
+			  <th scope="row"><i class="fas fa-calendar-alt"></i></th><i class="fas fa-file-alt"></i>
+			  <td>Program/Project Management</td>
+			  <td>Project scope, MVP/critical path determination, prioritisation, estimation, planning, scheduling, dependency mgmt. Roadmaps, product backlogs, ensuring solid pipeline of ‘ready’ user stories. RAID logs, risk and issue mgmt. Collaboration and consensus building, influencing without authority within/across departments and functions. </td>
+			</tr>
+			<tr>
+			  <th scope="row"><i class="fas fa-users"></i></th>
+			  <td>Cross-functional team building</td>
+			  <td>Discovering people’s intrinsic motivations to get the best from them while providing an environment to foster trust, open communication, ownership and striving towards a common goal. Encouraging T-shaped skills development.</td>
+			</tr>
+			<tr>
+			  <th scope="row">What icon?</th>
+			  <td>Agile</td>
+			  <td>Scrum, SAFeAgile, XP, FDD, TDD. Scrum Master skillset. Strong workshop facilitation, backlog grooming skills. Application of Lean principles for waste elimination and flow. Paving the way for self-organising teams.</td>
+			</tr>
+		  	<tr>
+			  <th scope="row"><i class="fas fa-chart-line"></i></th>
+			  <td>Communication/reporting</td>
+			  <td>Adaptable style for content and audience, clear and concise. Senior management and executive level reporting. Stakeholder engagement. Dashboarding, information radiators, process flow charts, meeting management, Slack, Box, RTC, JIRA, MS Office, Kanban boards, Sharepoint.</td>
+			</tr>
+		  	<tr>
+			  <th scope="row"><i class="fas fa-award"></i></th>
+			  <td>Quality Focus</td>
+			  <td>Building in quality from concept through to production. Teamwide accountability, KPIs for code/builds/defects/testing, coding standards, automation strategies, playbacks, cross-functional desk reviews, static/dynamic review techniques.</td>
+			</tr>
+		  	<tr>
+			  <th scope="row">What icon?</th>
+			  <td>Process improvement</td>
+			  <td>Identification through measurement and analysis, trial and drive adoption of changes. Agile retrospectives. Workshops.</td>
+			</tr>
+		  </tbody>
+		</table>
+	</section>
+
+	<!-- Experience -->
+	<section class="tab-pane container" id="experience">
+		<div class="row mt-5">
+			<div class="col-md-1">
+				<a href="https://www.fineos.com/" target="_blank">
+				<img class="img-fluid" alt="Fineos" src="images/FineosRedBackground.png" style="max-width:60%; max-height:60%"></a>
+			</div>
+			<div class="col-md-11">
+				<h3>Fineos<span class="float-right">November 2019 - Present</span></h3>
+			</div>
+		</div>
+			<div class="accordion" id="fineosExperience">
+			<div class="card">
+				<div class="card-header" id="fineosExperienceOne">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFEOne" aria-expanded="true" aria-controls="collapseFEOne">
+  					        Program Manager for IDAM
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseFEOne" class="collapse show" aria-labelledby="fineosExperienceOne" data-parent="#experience">
+      				<div class="card-body">
+        				What do I do in Fineos.
+						        				Tasks
+						<p>January 2015 - January 2019</p>
+        				<ul style="list-style-type:disc;">
+							<li></li>
+							<li></li>
+							<li>hhhhh:
+								<ul style="list-style-type:circle;">
+									<li></li>
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
+
+      				</div>
+				</div>
+			</div>
+		</div> <!-- End of Fineos experience -->
+
+		<div class="row mt-3">
+			<div class="col-md-1">
+				<a href="https://www.ibm.com/watson-health" target="_blank">
+				<img class="img-fluid" alt="Watson Health" src="images/ibmwatson.png" style="max-width:60%; max-height:60%"></a>
+			</div>
+			<div class="col-md-11">
+				<h3>IBM Watson Health<span class="float-right">January 2015 - January 2019</span></h3>
+			</div>
+		</div>
+		<div class="accordion" id="watsonExperience">
+			<div class="card">
+				<div class="card-header" id="watsonExperienceOne">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseWEOne" aria-expanded="true" aria-controls="collapseWEOne">
+  					        Program Manager for IBM Watson Care Manager (WCM) Integrated Care Program <!-- <span class="badge badge-pill badge-secondary">January 2017 - January 2019</span> -->
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseWEOne" class="collapse" aria-labelledby="watsonExperienceOne" data-parent="#experience">
+      				<div class="card-body">
+						<p>January 2017 - January 2019</p>
+        				<ul style="list-style-type:disc;">
+							<li>Led a tribe of up to 30 people comprising Designers, Business, Architects, Development, Quality, ID and Dev Ops using a Servant Leader approach to nurture a high performing, multi-site team.</li>
+							<li>Program consisted of 20 sub-projects across a tight delivery timeframe and included integrating with Google Maps, PayPal, a new UI infrastructure and two external portals. HIPAA and GDPR compliance.</li>
+							<li>Java EE application with reactive Node.JS front end; gradle scripts with Jenkins builders; Liberty appserver; DB2</li>
+							<li>Saas offering in a multi-tenanted cloud (IBM Cloud) environment.</li>
+							<li>Participated in IBM Design Thinking process to establish Vision, Personas, initial wireframes, HLR/Epics and NFR.</li>
+							<li>Ran workshops to determine the MVP vertical slice, breakdown Epics and build out the stories.</li>
+							<li>Prioritised the backlog with Product Owner ensuring development dependencies were highlighted.</li>
+							<li>Formed squads around project needs as we ramped up and down across the 20 sub-projects using Backlog Grooming sessions to ensure the tribe was always in the loop to leverage knowledge, elicit feedback and foster wide understanding of plans and dependencies.</li>
+							<li>Organised and facilitated the standard scrum meetings for two-week sprints and monthly releases.</li>
+							<li>Maintained RTC status dashboards and release plan/content documentation.</li>
+							<li>Participated in enablement for Marketing, Sales, IT Ops, and Implementation teams.</li>
+							<li>Took ownership of customer issues through to resolution. Completed RCA to understand each escaped defect.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="watsonExperienceTwo">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseWETwo" aria-expanded="true" aria-controls="collapseWETwo">
+  					        Program Manager for IBM Watson Care Manager (WCM) Digital Program
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseWETwo" class="collapse" aria-labelledby="watsonExperienceTwo" data-parent="#experience">
+      				<div class="card-body">
+						<p>March 2018 - January 2019</p>
+        				<ul style="list-style-type:disc;">
+							<li>Coordinated a multi-disciplinary, multi-site team comprising offering management, compliance management, legal counsel, marketing, implementations teams, sales teams, digital team, and IT Operations, to offer the WCM solution in the IBM Digital Marketplace including a trial use period on a system preconfigured for specific use cases.</li>
+							<li>Worked with disciplines to pull the various strands into a viable, dependency-based plan to ensure success.</li>
+							<li>Planned, tracked progress, and maintained project documentation. Presented to Senior Management and Executives on progress, risks and issue resolution.</li>
+							<li>In conjunction with making the offering available in the Marketplace I coordinated with the UX Design and UI team to implement instrumentation for WCM and include it in the preconfigured trial system to allow for on-screen interactive dialog, email marketing campaigns to pull potential customers into the sales funnel, and to capture data and track engagement, use and behaviour of those who participated in a trial system.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="watsonExperienceThree">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseWEThree" aria-expanded="true" aria-controls="collapseWEThree">
+  					        General Program/Project Manager duties for IBM Watson Care Manager (WCM)
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseWEThree" class="collapse" aria-labelledby="watsonExperienceThree" data-parent="#experience">
+      				<div class="card-body">
+						<p>January 2015 - January 2019</p>
+        				<ul style="list-style-type:disc;">
+							<li>Member of the WCM project formation team, working with senior management to determine the Agile Development Process we would follow. Developed and maintained process flow documentation.</li>
+							<li>Researched best practices for Agile in the RTC tool before taking responsibility for set up, ongoing admin and training.</li>
+							<li>Program/Project Manager/Scrum Master of the Scrum Masters:
+								<ul style="list-style-type:circle;">
+									<li>Creation and maintenance of dashboards to track WCM wide plans, progress and integration points.</li>
+									<li>Headcount and project allocation, including maintaining spreadsheets and metrics</li>
+									<li>Organising and chairing: Scrum of Scrums meetings; Scrum of Scrums Status Meeting with Senior Management (weekly); Project wide retrospectives to feed into the continuous improvement cycle; Risk Management meetings; Defect Triage when numbers grew above our set limits.</li>
+									<li>Worked with shared services leads (SVT, Performance, Dev Ops, Security) for planning, risk management and issue resolution where cross team collaboration was needed.</li>
+								</ul>
+							</li>
+							<li>Mentored and coached new scrum masters as the WCM team grew.</li>
+							<li>Collaborated with scrum teams to ensure adherence to our processes, with a focus on continuous improvement and the building in of quality (checkstyle; SonarQube reports for code quality, junits, Selenium)</li>
+							<li>Liaised with other project teams transitioning to Agile outlining the WCM process, our structure, and demoing our RTC setup. Actively promoting our lessons learnt, process, process improvements and best practices.</li>
+							<li>Chaired working group to bring our processes in line with Watson Health Playbook when it was published.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+		</div> <!-- End of IBM Watson experience -->
+
+		<h3 class="mt-3"><i class="fas fa-phone-square-alt"></i>IBM Industry Solutions/Cúram Software <span class="float-right">October 2004 - December 2014</span></h3>
+		<div class="row mt-3">
+			<div class="col-md-1">
+				<a href="https://www.ibm.com/watson-health" target="_blank">
+				<img class="img-fluid" alt="IBM" src="images/IBM.png" style="max-width:60%; max-height:60%"></a>
+			</div>
+			<div class="col-md-11">
+				<h3>IBM Watson Health<span class="float-right">January 2015 - January 2019</span></h3>
+			</div>
+		</div>
+		<div class="accordion" id="curamExperience">
+			<div class="card">
+				<div class="card-header" id="curamExperienceOne">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCEOne" aria-expanded="true" aria-controls="collapseCEOne">
+  					        Project Manager for IBM Care Management Project
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseCEOne" class="collapse" aria-labelledby="curamExperienceOne" data-parent="#experience">
+      				<div class="card-body">
+						<p>July 2014 to December 2014</p>
+						<p>Project managed the successful IBM Care Management 1.0 release, taking over responsibility for planning and scheduling from the development manager, forging strong relationships with Business, Development and Functional Verification Test to ensure the schedule could be adhered to across all disciplines.</p>
+      				</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="curamExperienceTwo">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCETwo" aria-expanded="true" aria-controls="collapseCETwo">
+  					        Lead/Principal Test Engineer in Functional Test Verification (FVT) team
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseCETwo" class="collapse" aria-labelledby="curamExperienceTwo" data-parent="#experience">
+      				<div class="card-body">
+						<p>March 2013 to June 2014</p>
+        				<ul style="list-style-type:disc;">
+							<li>Supported FVT manager in integrating silo test teams into a new centralised FVT team.</li>
+							<li>Responsible for the overall FVT of major Cúram releases.</li>
+							<li>Headed the FVT Process Improvement workgroup, spearheading initiative to adopt Rational Quality Manager (RQM) as a new test management tool for FVT.</li>
+							<li>Participated in hiring of new test engineers, training plans, and mentoring particularly for new test leads.</li>
+							<li>Provided training both formally (internal IBM wide training for ITSQB Foundation in Software Testing) and informally (Cúram products, test processes and tools) within the FVT team.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="curamExperienceThree">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCEThree" aria-expanded="true" aria-controls="collapseCEThree">
+  					        Quality Manager/Principal Test Engineer in New Product Group
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseCEThree" class="collapse" aria-labelledby="curamExperienceThree" data-parent="#experience">
+      				<div class="card-body">
+						<p>July 2008 - February 2013</p>
+        				<ul style="list-style-type:disc;">
+							<li>Managed the testing of a set of product solutions across multiple concurrent releases. For each project/release:
+								<ul style="list-style-type:circle;">
+									<li>Developed the overall test strategy and plans for the NPG group.</li>
+									<li>Completed risk assessment and developed mitigation plan.</li>
+									<li>Controlled and maintained the test environment.</li>
+								</ul>
+							</li>
+							<li>Drove continuous improvement to the test process and practices within NPG team. Shared ideas and improvements with wider Test community using Sharepoint.</li>
+							<li>Automation: Defined automation strategy for each product and coordinated with Automation Infrastructure team to establish tool requirements and limitations.</li>
+							<li>Managed CV review, candidate selection, interviews, and feedback as part of hiring process for new test engineers.</li>
+							<li>Organised training for new team members. Mentored test engineers particularly new team leads.</li>
+							<li>Monthly meetings with team members to discuss their work against goals set, provide feedback, and deal with/escalate any issues/concerns they have.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="curamExperienceFour">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCEFour" aria-expanded="true" aria-controls="collapseCEFour">
+  					        Solutions Group Test Lead/Senior Test Engineer
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseCEFour" class="collapse" aria-labelledby="curamExperienceFour" data-parent="#experience">
+      				<div class="card-body">
+						<p>March 2005 – June 2008</p>
+        				<ul style="list-style-type:disc;">
+							<li>Built team to 14 test engineers, testing multiple solutions across multiple concurrent releases.</li>
+							<li>Involved in hiring and training of new team members.</li>
+							<li>Planning, estimation and scheduling of necessary test activities.</li>
+							<li>Execution, tracking and reporting of tasks and results against the plan.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+
+			<div class="card">
+				<div class="card-header" id="curamExperienceFive">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseCEFive" aria-expanded="true" aria-controls="collapseCEFive">
+  					        Solutions Group Test Engineer
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseCEFive" class="collapse" aria-labelledby="curamExperienceFive" data-parent="#experience">
+      				<div class="card-body">
+						<p>October 2004 – February 2005</p>
+						<p>Analyse requirements, develop test scenarios, executed testing, report on progress and status.</p>
+      				</div>
+				</div>
+			</div>
+		</div> <!-- End of Curam experience -->
+
+		<h3 class="mt-3"><i class="fas fa-phone-square-alt"></i>Lucent Technologies<span class="float-right">March 2000 - October 2004</span></h3>
+		<div class="accordion" id="lucentExperience">
+			<div class="card">
+				<div class="card-header" id="lucentExperienceOne">
+					<h2 class="mb-0">
+        				<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseLEOne" aria-expanded="true" aria-controls="collapseLEOne">
+  					        Software Test Engineer
+        				</button>
+      				</h2>
+				</div>
+				<div id="collapseLEOne" class="collapse" aria-labelledby="lucentExperienceOne" data-parent="#experience">
+      				<div class="card-body">
+        				<ul style="list-style-type:disc;">
+							<li>Involved in all stages of testing for the project lifecycle.</li>
+							<li>Responsible for upkeep of test and live equipment environments.</li>
+							<li>Developed web pages to provide information and status updates across the Test team.</li>
+							<li>Developed internal training materials for my areas of expertise; provided training and mentored new team members.</li>
+							<li>Supported Field Support and Current Engineering teams with analysis of customer problems.</li>
+						</ul>
+      				</div>
+				</div>
+			</div>
+		</div> <!-- End of Lucent Technologies experience -->
+	</section>
+
+	<!-- Education tab -->
+	<section class="tab-pane container" id="education">
+		<!-- Formal Education section -->
+		<h4 class="mt-5">Formal Education</h4>
+		<div class="row pt-3" >
+			<div class="col-md-6 mt-1"> <!-- Row 1, Column 1 -->
+				<div class="row">
+					<div class="col-md-2 my-auto">
+						<a href="https://www.it-tallaght.ie/" target="_blank">
+							<img class="img-fluid" alt="TU Dublin - Tallaght Campus" src="images/TUDublin.png" style="max-width:100%;">
+						</a>
+					</div>
+					<div class="col-md-10 my-auto">
+						<h5>Certificate Machine Learning & AI</h5>
+						<h6>TU Dublin, Currently studying</h6>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-1"> <!-- Row 1, Column 2 -->
+				<div class="row">
+					<div class="col-md-2 my-auto">
+						<a href="https://www.dcu.ie/" target="_blank">
+							<img class="img-fluid" alt="DCU" src="images/DCUIcon.png" style="max-width:100%;">
+						</a>
+					</div>
+					<div class="col-md-10 my-auto">
+						<h5>BSc(Hons) Applied Physics</h5>
+						<h6>Dublin City University, 1999</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row pt-3">
+			<div class="col-md-6 mt-1"> <!-- Row 2, Column 1 -->
+				<div class="row">
+					<div class="col-md-2 my-auto">
+						<a href="http://www.projectmanagement.ie/" target="_blank">
+							<img class="img-fluid" alt="IPMA" src="images/IPMALogo.png" style="max-width:100%;">
+						</a>
+					</div>
+					<div class="col-md-10 my-auto">
+						<h5>Diploma Project Management</h5>
+						<h6>IPMA, 2013</h6>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-1"> <!-- Row 2, Column 2 -->
+				<div class="row">
+					<div class="col-md-2 my-auto">
+						<a href="http://www.open.ac.uk/republic-of-ireland/" target="_blank">
+							<img class="img-fluid" alt="Open University" src="images/OULogo.png" style="max-width:100%;">
+						</a>
+					</div>
+					<div class="col-md-10 my-auto">
+						<h5>Software Engineering (Level 9 Certificate)</h5>
+						<h6>Open University, 2002</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Professional Development section -->
+		<h4 class="mt-5">Professional Development</h4>
+		<div class="row pt-3">
+			<div class="col-md-6 mt-1"> <!-- Row 1, Column 1 -->
+				<div class="row">
+					<div class="col-md-12 my-auto">
+						<h5>Certified Professional Scrum Master</h5>
+						<h6>2015</h6>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-1"> <!-- Row 1, Column 2 -->
+				<div class="row">
+					<div class="col-md-12 my-auto">
+						<h5>Agile Development Methodologies</h5>
+						<h6>Scrum, XP, Feature Driven Development, Test Driven Development</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row pt-3">
+			<div class="col-md-6 mt-1"> <!-- Row 2, Column 1 -->
+				<div class="row">
+					<div class="col-md-12 my-auto">
+						<h5>Management Development Program</h5>
+						<h6>Team Development, Coaching, Mentoring, Personal Power and Influence</h6>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-1"> <!-- Row 2, Column 2 -->
+				<div class="row">
+					<div class="col-md-12 my-auto">
+						<h5>Behavioural Interviewing Techniques</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row pt-3">
+			<div class="col-md-6 mt-1"> <!-- Row 3, Column 1 -->
+				<div class="row">
+					<div class="col-md-12 my-auto">
+						<h5>ISTQB Certification</h5>
+						<h6>Advanced Level Test Manager</h6>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-1"> <!-- Row 3, Column 2 -->
+				<div class="row">
+					<div class="col-md-12 my-auto">
+						<h5>Graduate Training Program</h5>
+						<h6>Centre for Software Engineering, DCU 2000/2001</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testimonials tab -->
+	<section class="tab-pane container" id="testimonials">
+		<div id="carouselTestimonialIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselTestimonialIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselTestimonialIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselTestimonialIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block w-100" src="images/TestimonialOne.png" alt="Testimonial One">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="images/TestimonialTwo.png" alt="Testimonial Two">
+			</div>
+			<div class="carousel-item">
+			  <img class="d-block w-100" src="images/TestimonialThree.png" alt="Testimonial Three">
+			</div>
+		  </div>
+			<a class="carousel-control carousel-control-prev" href="#carouselTestimonialIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control carousel-control-next" href="#carouselTestimonialIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+
+		</div>
+	</section>
+
+	<!-- Contact tab -->
+	<section class="tab-pane container" id="contact">
+		<div class="row mt-2">
+			<div class="col-md-6 mt-2 py-5 pl-5">
+				<div class="card mt-3">
+					<h5 class="card-header"><strong>Angela Cahill</strong> <br> <i>Program Manager</i></h5>
+					<div class="card-body">
+						<p class="card-text">
+							<i class="fas fa-map-marker-alt"></i> <strong>Address</strong> <br>
+							42 Highland Woods, <br>
+							Malahide, <br>
+							Dublin.
+						</p>
+						<p class="card-text">
+							<i class="fas fa-phone-square-alt"></i> <strong>Phone</strong> <br>
+							01 4358932
+						</p>
+						<p class="card-text">
+							<i class="fas fa-envelope-square"></i> <strong>Email</strong> <br>
+							<a href="mailto:angela@gmail.com">angela@gmail.com</a> <br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 mt-2 py-5 pl-5">
+				<h3>Send me a message</h3>
+				<form>
+					<div class="form-group">
+						<label for="contactName">Your Name</label>
+						<input type="text" class="form-control" id="contactName" placeholder="Enter your name" required>
+					</div>
+					<div class="form-group">
+						<label for="companyName">Company Name</label>
+						<input type="text" class="form-control" id="companyName" placeholder="Enter your company name">
+					</div>
+					<div class="form-group">
+						<label for="emailAddress">Email</label>
+						<input type="email" class="form-control" id="emailAddress" placeholder="Enter a valid email address" required>
+					</div>
+					<div class="form-group">
+						<label for="phoneNumber">Phone Number</label>
+						<input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number">
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" placeholder="Enter your message" rows="5"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+  	</section>
+
+	<!-- Sitemap tab -->
+	<section class="tab-pane" id="sitemap">
+		<div class="container">
+			<div class="row mt-3">
+				<div class="col-sm-12">
+            		<h3>Pages:</h3>
+					<ul>
+						<li><a href="#profile"><strong>Profile</strong></a></li>
+						<li><a href="#skills"><strong>Skills</strong></a></li>
+						<li><a href="#education"><strong>Education</strong></a></li>
+						<li><a href="#experience"><strong>Experience</strong></a></li>
+						<li><a href="#testimonials"><strong>Testimonials</strong></a></li>
+						<li><a href="#contact"><strong>Contact</strong></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- UX tab -->
+	<section class="tab-pane" id="ux">
+		<div class="container">
+			<div class="row mt-3">
+				<div class="col-sm-12">
+            		<h3>User Experience</h3>
+					<ul>
+						<li><a href="#profile"><strong>Profile</strong></a></li>
+						<li><a href="#skills"><strong>Skills</strong></a></li>
+						<li><a href="#education"><strong>Education</strong></a></li>
+						<li><a href="#experience"><strong>Experience</strong></a></li>
+						<li><a href="#testimonials"><strong>Testimonials</strong></a></li>
+						<li><a href="#contact"><strong>Contact</strong></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	</div> <!-- /.tab-content -->
+
+	<!-- Footer -->
+	<footer class="footer mt-5">
+		<div class="row">
+			<div class="col-md-12 text-center border-top">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link" href="#profile" data-toggle="tab">Profile</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills" data-toggle="tab">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#education" data-toggle="tab">Education</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#experience" data-toggle="tab">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#testimonials" data-toggle="tab">Testimonials</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact" data-toggle="tab">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<ul class="nav justify-content-center text-muted">
+					<li class="nav-item">
+						<a class="nav-link" href="#sitemap" data-toggle="tab">Sitemap</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#ux" data-toggle="tab">UX</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="madeBy text-center py-1 text-muted">
+			<p>Made by Angela Cahill &copy; 2019</p>
+		</div>
+	</footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+
 </html>
+
